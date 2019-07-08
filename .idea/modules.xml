@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" filepath="$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" filepath="$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/springcloud_fegin_consumer_6061.iml" filepath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/springcloud_fegin_consumer_6061.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_main.iml" filepath="$PROJECT_DIR$/springcloud_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" filepath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" filepath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" />

@@ -3,7 +3,7 @@ server:
   port: 6060
 spring:
   application:
-    name: server-consumer
+    name: server-consumer-ribbon
 eureka:
   client:
     service-url:
