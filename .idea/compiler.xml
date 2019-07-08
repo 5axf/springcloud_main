@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_eureka_server_8081" />
+        <module name="springcloud_provide_9091" />
+        <module name="springcloud_provide_9090" />
+        <module name="springcloud_ribbon_consumer_6060" />
+        <module name="springcloud_eureka_server_8080" />
+        <module name="springcloud_main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_eureka_server_8080" target="1.8" />
+      <module name="springcloud_eureka_server_8081" target="1.8" />
+      <module name="springcloud_feign_consumer_6061" target="1.8" />
+      <module name="springcloud_main" target="1.8" />
+      <module name="springcloud_provide2_9091" target="1.8" />
+      <module name="springcloud_provide_9090" target="1.8" />
+      <module name="springcloud_provide_9091" target="1.8" />
+      <module name="springcloud_ribbon_consumer_6060" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_eureka_server_8080" options="-parameters" />
+      <module name="springcloud_eureka_server_8081" options="-parameters" />
+      <module name="springcloud_feign_consumer_6061" options="-parameters" />
+      <module name="springcloud_main" options="-parameters" />
+      <module name="springcloud_provide2_9091" options="-parameters" />
+      <module name="springcloud_provide_9090" options="-parameters" />
+      <module name="springcloud_provide_9091" options="-parameters" />
+      <module name="springcloud_ribbon_consumer_6060" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+#一个客户端既可以是提供者，也可以是消费者
+server:
+  port: 6061
+spring:
+  application:
+    name: server-consumer-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8080.com:8080/eureka/,http://eureka8080.com:8081/eureka/
+    #是否注册到注册中心
+    register-with-eureka: true
+  instance:
+    instance-id: consumer6061
+    prefer-ip-address: true

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" filepath="$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" filepath="$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_main.iml" filepath="$PROJECT_DIR$/springcloud_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" filepath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" filepath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" filepath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" />
+    </modules>
+  </component>
+</project>

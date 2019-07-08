@@ -1,0 +1,17 @@
+server:
+  port: 9091
+
+#配置当前的服务注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8080.com:8080/eureka/,http://eureka8080.com:8081/eureka/
+  #配置显示的链接
+  instance:
+    instance-id: provide9091
+    prefer-ip-address: true
+
+#应用名称 --搭集群的时候名称必须一样，名称不一样eureka会认为是两个不同的提供者
+spring:
+  application:
+    name: server-provide

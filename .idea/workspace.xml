@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89e579c6-edfb-45a2-bcee-d4e472cae460" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/springcloud_feign_consumer_6061.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/test-classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/NoCompend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/main/java/com/qRCode/qRCode/QRCodeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/main/java/com/qRCode/qRCode/QRCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/main/java/com/qRCode/qRCode/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/main/java/com/qRCode/qRCode/appletQRCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qRCode/src/test/java/com/qRCode/qRCode/QRCodeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/WeiXinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/WeiXinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/MhApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/MhApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/dao/ImgUploadDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/dao/ImgUploadDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/dao/OrderInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/dao/UserRegistrationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/dao/UserRegistrationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/entity/WinXinEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/ImgUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/ImgUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/ImgUploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/ImgUploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/OrderInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/UserRegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/Impl/UserRegistrationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/OrderInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/UserRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/service/UserRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/Arith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/DeleteFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/DeleteFileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/HttpResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/IConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/OrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/OrderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/RRException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/RRExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/ResultCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/Sign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/UploadFileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/WXUnitl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/WechatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/WechatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/WeiXinUnitl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/XmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/imgUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/utils/imgUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ImgUploadDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/ImgUploadDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/OrderInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/OrderInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/UserRegistrationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/UserRegistrationDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/html/imgUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/html/imgUpload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/html/orderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/html/orderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/html/userRegistration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/MH/MH/MhApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/MH/MH/MhApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_eureka_server_8080/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_provide_9090/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_provide_9091/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_eureka_server_8081/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/java/com/meiheng/springcloud_eureka_server_8080/SpringcloudEurekaServer8080Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/SpringcloudProvide9090Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/SpringcloudProvide9091Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/java/com/meiheng/springcloud_eureka_server_8081/SpringcloudEurekaServer8081Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribon/ribbonConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/NoCompend.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig2.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../java/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\axf\java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="235" />
+    <option name="y" value="51" />
+    <option name="width" value="1456" />
+    <option name="height" value="962" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.meiheng.springcloud_ribbon_consumer_6060.ribbon" />
+      <recent name="com.meiheng.springcloud_provide_9091.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\axf\workspace\springcloud_main\springcloud_provide_9090" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.服务消费者（feign）-6061">
+    <configuration name="注册中心-8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_eureka_server_8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_eureka_server_8080.SpringcloudEurekaServer8080Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="注册中心-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_eureka_server_8081" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_eureka_server_8081.SpringcloudEurekaServer8081Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="服务提供者（微服务）-9090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_provide_9090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_provide_9090.SpringcloudProvide9090Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="服务提供者（微服务）-9091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_provide_9091" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_provide_9091.SpringcloudProvide9091Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="服务消费者（feign）-6061" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_feign_consumer_6061" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_fegin_consumer_6061.SpringcloudFeginConsumer6061Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="服务消费者（ribbon）-6060" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_ribbon_consumer_6060" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_ribbon_consumer_6060.SpringcloudRibbonConsumer6060Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.注册中心-8080" />
+      <item itemvalue="Spring Boot.服务提供者（微服务）-9090" />
+      <item itemvalue="Spring Boot.服务提供者（微服务）-9091" />
+      <item itemvalue="Spring Boot.注册中心-8081" />
+      <item itemvalue="Spring Boot.服务消费者（ribbon）-6060" />
+      <item itemvalue="Spring Boot.服务消费者（feign）-6061" />
+    </list>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="235" y="51" width="1456" height="962" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.205165" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.38592234" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/java/com/meiheng/springcloud_eureka_server_8080/SpringcloudEurekaServer8080Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/SpringcloudProvide9091Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/SpringcloudProvide9091Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/java/com/meiheng/springcloud_eureka_server_8081/SpringcloudEurekaServer8081Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8080/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="42" column="20" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8081/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="97" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/SpringcloudProvide9090Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/NoCompend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_feign_consumer_6061/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springcloud_provide_9090</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
