@@ -12,6 +12,7 @@
         <module name="springcloud_provide_9090" />
         <module name="springcloud_fegin_consumer_6061" />
         <module name="springcloud_ribbon_consumer_6060" />
+        <module name="springcloud_zuul_10000" />
         <module name="springcloud_main" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="springcloud_provide_9090" target="1.8" />
       <module name="springcloud_provide_9091" target="1.8" />
       <module name="springcloud_ribbon_consumer_6060" target="1.8" />
+      <module name="springcloud_zuul_10000" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +40,7 @@
       <module name="springcloud_provide_9090" options="-parameters" />
       <module name="springcloud_provide_9091" options="-parameters" />
       <module name="springcloud_ribbon_consumer_6060" options="-parameters" />
+      <module name="springcloud_zuul_10000" options="-parameters" />
     </option>
   </component>
 </project>

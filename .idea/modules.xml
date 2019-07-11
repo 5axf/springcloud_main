@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" filepath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" filepath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" filepath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_zuul_10000/springcloud_zuul_10000.iml" filepath="$PROJECT_DIR$/springcloud_zuul_10000/springcloud_zuul_10000.iml" />
     </modules>
   </component>
 </project>

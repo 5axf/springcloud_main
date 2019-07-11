@@ -13,3 +13,5 @@ eureka:
   instance:
     instance-id: consumer6061
     prefer-ip-address: true
+
+#开启feign的HyHystrix的功能

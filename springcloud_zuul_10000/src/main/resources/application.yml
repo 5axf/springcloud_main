@@ -1,0 +1,25 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: zuul10000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8080.com:8080/eureka/,http://eureka8080.com:8081/eureka/
+    #是否注册到注册中心
+    register-with-eureka: true
+  instance:
+    instance-id: zuul10000
+    prefer-ip-address: true
+#路由规则
+zuul:
+  routes:
+    test1:
+      #url匹配规则
+      path: /test1/**
+      #调用的提供者
+      serviceId: server-provide
+#    test2:
+#      path: /test1/**
+#      serviceId: xxxxx

@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e579c6-edfb-45a2-bcee-d4e472cae460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/springcloud_fegin_consumer_6061.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/springcloud_zuul_10000.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/test/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -31,25 +46,15 @@
       <change beforePath="$PROJECT_DIR$/../qRCode/src/test/java/com/qRCode/qRCode/QRCodeApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_eureka_server_8080/springcloud_eureka_server_8080.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_eureka_server_8081/springcloud_eureka_server_8081.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/springcloud_feign_consumer_6061.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/springcloud_feign_consumer_6061.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/src/test/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/classes/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_feign_consumer_6061/target/test-classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/test-classes/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061ApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" afterDir="false" />
@@ -109,6 +114,7 @@
     <ignored path="$PROJECT_DIR$/springcloud_eureka_server_8081/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_zuul_10000/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,21 +125,82 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="736">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="404">
+              <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="31" column="72" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -144,8 +211,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,22 +235,28 @@
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java" />
         <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java" />
-        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribon/ribbonConfig.java" />
-        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/NoCompend.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/RibbonConfig2.java" />
         <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java" />
-        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java" />
-        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" />
         <option value="$PROJECT_DIR$/springcloud_feign_consumer_6061/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" />
+        <option value="$PROJECT_DIR$/springcloud_zuul_10000/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java" />
       </list>
     </option>
   </component>
@@ -201,8 +274,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="51" />
+    <option name="x" value="408" />
+    <option name="y" value="40" />
     <option name="width" value="1456" />
     <option name="height" value="962" />
   </component>
@@ -212,6 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,65 +294,10 @@
               <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_ribbon_consumer_6060" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_ribbon_consumer_6060" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud_ribbon_consumer_6060" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +309,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -299,6 +319,9 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\axf\workspace\springcloud_main\springcloud_fegin_consumer_6061\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.meiheng.springcloud_ribbon_consumer_6060.ribbon" />
       <recent name="com.meiheng.springcloud_provide_9091.controller" />
@@ -319,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.服务消费者（feign）-6061">
+  <component name="RunManager" selected="Spring Boot.路由网关10000">
     <configuration name="注册中心-8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud_eureka_server_8080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_eureka_server_8080.SpringcloudEurekaServer8080Application" />
@@ -352,8 +375,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="路由网关10000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_zuul_10000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_zuul_10000.SpringcloudZuul10000Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="服务消费者（feign）-6061" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springcloud_feign_consumer_6061" />
+      <module name="springcloud_fegin_consumer_6061" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_fegin_consumer_6061.SpringcloudFeginConsumer6061Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -389,6 +420,7 @@
       <item itemvalue="Spring Boot.注册中心-8081" />
       <item itemvalue="Spring Boot.服务消费者（ribbon）-6060" />
       <item itemvalue="Spring Boot.服务消费者（feign）-6061" />
+      <item itemvalue="Spring Boot.路由网关10000" />
     </list>
     <recent_temporary>
       <list>
@@ -396,18 +428,19 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="51" width="1456" height="962" extended-state="0" />
-    <editor active="true" />
+    <frame x="408" y="40" width="1456" height="962" extended-state="0" />
     <layout>
-      <window_info id="Web" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.33572453" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.22381635" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -416,11 +449,12 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.38592234" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.13834952" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -505,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/SpringcloudProvide9090Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -530,20 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,20 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -596,40 +595,6 @@
             <element signature="e#604#605#0" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -645,17 +610,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
