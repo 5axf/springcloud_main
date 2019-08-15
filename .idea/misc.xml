@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_zuul_10000/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_config_server_10086/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_config_client_10080/pom.xml" />
       </list>
     </option>
   </component>

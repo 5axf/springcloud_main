@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_config_server_10086" />
         <module name="springcloud_eureka_server_8081" />
         <module name="springcloud_eureka_server_8080" />
         <module name="springcloud_provide_9091" />
         <module name="springcloud_provide_9090" />
+        <module name="springcloud_config_client_10080" />
         <module name="springcloud_fegin_consumer_6061" />
         <module name="springcloud_ribbon_consumer_6060" />
         <module name="springcloud_zuul_10000" />
@@ -17,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springcloud_config_client_10080" target="1.8" />
+      <module name="springcloud_config_server_10086" target="1.8" />
       <module name="springcloud_eureka_server_8080" target="1.8" />
       <module name="springcloud_eureka_server_8081" target="1.8" />
       <module name="springcloud_fegin_consumer_6061" target="1.8" />
@@ -31,6 +35,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_config_client_10080" options="-parameters" />
+      <module name="springcloud_config_server_10086" options="-parameters" />
       <module name="springcloud_eureka_server_8080" options="-parameters" />
       <module name="springcloud_eureka_server_8081" options="-parameters" />
       <module name="springcloud_fegin_consumer_6061" options="-parameters" />

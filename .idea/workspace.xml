@@ -2,28 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e579c6-edfb-45a2-bcee-d4e472cae460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/springcloud_zuul_10000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_zuul_10000/src/test/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/api/GspApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/gift/GspGiftController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/gift/GspGiftExchcangeRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/gift/GspGiftTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/goods/GspProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/goods/GspProductTeachingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/goods/GspProductTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/order/GspCashRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/tool/DeleteFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/java/com/gsp/web/controller/user/GspUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGift/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGift/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGift/gspGift.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftExchcangeRecord/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftExchcangeRecord/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftExchcangeRecord/gspGiftExchcangeRecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftType/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftType/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/gift/gspGiftType/gspGiftType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProduct/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProduct/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProduct/gspProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductTeaching/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductTeaching/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductTeaching/gspProductTeaching.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductType/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductType/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/goods/gspProductType/gspProductType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/order/gspCashRecord/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/order/gspCashRecord/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/order/gspCashRecord/gspCashRecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/user/gspUser/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/user/gspUser/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/user/gspUser/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-admin/src/main/resources/templates/user/gspUser/gspUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/domain/GspGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/domain/GspGiftExchcangeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/domain/GspGiftType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/mapper/GspGiftExchcangeRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/mapper/GspGiftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/mapper/GspGiftTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/IGspGiftExchcangeRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/IGspGiftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/IGspGiftTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/impl/GspGiftExchcangeRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/impl/GspGiftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/java/com/gsp/gift/service/impl/GspGiftTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/resources/mapper/GspGiftExchcangeRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/resources/mapper/GspGiftMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-gift/src/main/resources/mapper/GspGiftTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/domain/GspProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/domain/GspProductTeaching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/domain/GspProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/mapper/GspProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/mapper/GspProductTeachingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/mapper/GspProductTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/IGspProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/IGspProductTeachingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/IGspProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/impl/GspProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/impl/GspProductTeachingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/java/com/gsp/goods/service/impl/GspProductTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/resources/mapper/GspProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/resources/mapper/GspProductTeachingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-goods/src/main/resources/mapper/GspProductTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/src/main/java/com/gsp/order/domain/GspCashRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/src/main/java/com/gsp/order/mapper/GspCashRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/src/main/java/com/gsp/order/service/IGspCashRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/src/main/java/com/gsp/order/service/impl/GspCashRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-order/src/main/resources/mapper/GspCashRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-user/src/main/java/com/gsp/user/domain/GspUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-user/src/main/java/com/gsp/user/mapper/GspUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-user/src/main/java/com/gsp/user/service/IGspUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-user/src/main/java/com/gsp/user/service/impl/GspUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsp/gsp-user/src/main/resources/mapper/GspUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_config_client_10080/springcloud_config_client_10080.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_config_client_10080/src/main/java/com/meiheng/springcloud_config_client_10080/controller/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_config_client_10080/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_config_server_10086/springcloud_config_server_10086.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -50,11 +128,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/springcloud_ribbon_consumer_6060.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9090/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9090/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9090/springcloud_provide_9090.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9090/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9091/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9091/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_provide_9091/springcloud_provide_9091.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_provide_9091/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/classes/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/classes/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/classes/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/classes/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/ImgUploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/OrderInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/MH/MH/Controller/UserRegistrationController.java" afterDir="false" />
@@ -115,6 +201,8 @@
     <ignored path="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_fegin_consumer_6061/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_zuul_10000/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_config_server_10086/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_config_client_10080/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,80 +215,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud_config_server_10086/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="170">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_config_server_10086/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="368">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_config_client_10080/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="184">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -226,15 +307,11 @@
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/java/com/meiheng/springcloud_eureka_server_8080/SpringcloudEurekaServer8080Application.java" />
         <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/SpringcloudProvide9090Application.java" />
-        <option value="$PROJECT_DIR$/springcloud_provide_9090/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud_provide_9091/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/SpringcloudProvide9091Application.java" />
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/java/com/meiheng/springcloud_eureka_server_8081/SpringcloudEurekaServer8081Application.java" />
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_server_8081/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java" />
         <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribon/ribbonConfig.java" />
@@ -249,14 +326,27 @@
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/SpringcloudRibbonConsumer6060Application.java" />
         <option value="$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/controller/ribbonController.java" />
-        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" />
         <option value="$PROJECT_DIR$/springcloud_zuul_10000/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java" />
         <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java" />
+        <option value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_config_server_10086/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_config_server_10086/src/main/java/com/meiheng/springcloud_config_server_10086/SpringcloudConfigServer10086Application.java" />
+        <option value="$PROJECT_DIR$/springcloud_config_server_10086/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_config_client_10080/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_config_client_10080/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud_config_client_10080/src/main/java/com/meiheng/springcloud_config_client_10080/controller/Myconfig.java" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -274,8 +364,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="y" value="40" />
+    <option name="x" value="302" />
+    <option name="y" value="26" />
     <option name="width" value="1456" />
     <option name="height" value="962" />
   </component>
@@ -285,8 +375,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,10 +382,38 @@
               <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_main" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_fegin_consumer_6061" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +425,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_provide_9091/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -320,6 +436,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\axf\workspace\springcloud_main\springcloud_provide_9091\src\main\resources" />
+      <recent name="F:\axf\workspace\springcloud_main\springcloud_provide_9090\src\main\resources" />
       <recent name="F:\axf\workspace\springcloud_main\springcloud_fegin_consumer_6061\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -327,6 +445,7 @@
       <recent name="com.meiheng.springcloud_provide_9091.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\axf\workspace\springcloud_main\springcloud_provide_9090\src\main\resources" />
       <recent name="F:\axf\workspace\springcloud_main\springcloud_provide_9090" />
     </key>
   </component>
@@ -342,7 +461,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.路由网关10000">
+  <component name="RunManager" selected="Spring Boot.配置中心服务端-10086">
+    <configuration name="配置中心客户端-10080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_config_client_10080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_config_client_10080.SpringcloudConfigClient10080Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="配置中心服务端-10086" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_config_server_10086" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_config_server_10086.SpringcloudConfigServer10086Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="注册中心-8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud_eureka_server_8080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meiheng.springcloud_eureka_server_8080.SpringcloudEurekaServer8080Application" />
@@ -421,6 +556,8 @@
       <item itemvalue="Spring Boot.服务消费者（ribbon）-6060" />
       <item itemvalue="Spring Boot.服务消费者（feign）-6061" />
       <item itemvalue="Spring Boot.路由网关10000" />
+      <item itemvalue="Spring Boot.配置中心服务端-10086" />
+      <item itemvalue="Spring Boot.配置中心客户端-10080" />
     </list>
     <recent_temporary>
       <list>
@@ -432,13 +569,14 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="40" width="1456" height="962" extended-state="0" />
+    <frame x="241" y="33" width="1456" height="962" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.22381635" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.28192252" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
@@ -449,7 +587,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.13834952" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.4563107" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -468,6 +606,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springcloud_eureka_server_8080/src/main/java/com/meiheng/springcloud_eureka_server_8080/SpringcloudEurekaServer8080Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -476,31 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/SpringcloudProvide9091Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/SpringcloudProvide9091Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -546,20 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_ribbon_consumer_6060/src/main/java/com/meiheng/springcloud_ribbon_consumer_6060/ribbon/NoCompend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -586,18 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/controller/provideController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -606,23 +701,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#604#605#0" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,60 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -718,28 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/zuulfilter/MyZuulFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        <state relative-caret-position="450">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
@@ -749,6 +759,207 @@
             <element signature="e#547#548#0" expanded="true" />
             <element signature="e#574#575#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/java/com/meiheng/springcloud_zuul_10000/SpringcloudZuul10000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/controller/feignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/impl/FeignServiceFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/SpringcloudFeginConsumer6061Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_zuul_10000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/java/com/meiheng/springcloud_fegin_consumer_6061/service/feignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_server_10086/src/main/java/com/meiheng/springcloud_config_server_10086/SpringcloudConfigServer10086Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/java/com/meiheng/springcloud_provide_9090/controller/provideController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_client_10080/src/main/java/com/meiheng/springcloud_config_client_10080/SpringcloudConfigClient10080Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="37" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_client_10080/src/main/java/com/meiheng/springcloud_config_client_10080/controller/Myconfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/java/com/meiheng/springcloud_provide_9091/SpringcloudProvide9091Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_client_10080/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_server_10086/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_server_10086/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config_client_10080/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9091/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_provide_9090/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_fegin_consumer_6061/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>

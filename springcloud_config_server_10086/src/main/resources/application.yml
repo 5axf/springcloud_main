@@ -1,0 +1,12 @@
+server:
+  port: 10086
+
+#当git仓库是公开的可以不用配置账号密码，当仓库是私有的时候需要配置账号密码
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/5axf/myconfig.git
+#          username:
+#          password:

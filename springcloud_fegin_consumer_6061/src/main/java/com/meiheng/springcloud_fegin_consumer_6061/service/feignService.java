@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface feignService {
 
     @RequestMapping("/provide/hello/zhangsan")
-    String provide(@PathVariable("params") String params);
+    String provide(String params);
 
 }
